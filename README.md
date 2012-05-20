@@ -1,1 +1,1 @@
-<img src="/path/to/img.jpg" alt="alt text" title="Title" />
+<img src="http://www.iphonedevbook.com/images/book.jpg" alt="alt text" title="Title" />
