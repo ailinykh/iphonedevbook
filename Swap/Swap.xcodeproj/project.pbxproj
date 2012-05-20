@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A8568B514D18A68002B65B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8568B414D18A68002B65B8 /* UIKit.framework */; };
+		3A8568B714D18A68002B65B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8568B614D18A68002B65B8 /* Foundation.framework */; };
+		3A8568B914D18A68002B65B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8568B814D18A68002B65B8 /* CoreGraphics.framework */; };
+		3A8568BF14D18A69002B65B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A8568BD14D18A69002B65B8 /* InfoPlist.strings */; };
+		3A8568C114D18A69002B65B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8568C014D18A69002B65B8 /* main.m */; };
+		3A8568C514D18A69002B65B8 /* SwapAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8568C414D18A69002B65B8 /* SwapAppDelegate.m */; };
+		3A8568C814D18A69002B65B8 /* SwapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A8568C714D18A69002B65B8 /* SwapViewController.m */; };
+		3A8568CB14D18A69002B65B8 /* SwapViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8568C914D18A69002B65B8 /* SwapViewController_iPhone.xib */; };
+		3A8568CE14D18A69002B65B8 /* SwapViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A8568CC14D18A69002B65B8 /* SwapViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A8568B014D18A68002B65B8 /* Swap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8568B414D18A68002B65B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A8568B614D18A68002B65B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A8568B814D18A68002B65B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A8568BC14D18A69002B65B8 /* Swap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Swap-Info.plist"; sourceTree = "<group>"; };
+		3A8568BE14D18A69002B65B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A8568C014D18A69002B65B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A8568C214D18A69002B65B8 /* Swap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swap-Prefix.pch"; sourceTree = "<group>"; };
+		3A8568C314D18A69002B65B8 /* SwapAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapAppDelegate.h; sourceTree = "<group>"; };
+		3A8568C414D18A69002B65B8 /* SwapAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapAppDelegate.m; sourceTree = "<group>"; };
+		3A8568C614D18A69002B65B8 /* SwapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapViewController.h; sourceTree = "<group>"; };
+		3A8568C714D18A69002B65B8 /* SwapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapViewController.m; sourceTree = "<group>"; };
+		3A8568CA14D18A69002B65B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwapViewController_iPhone.xib; sourceTree = "<group>"; };
+		3A8568CD14D18A69002B65B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwapViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A8568AD14D18A68002B65B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8568B514D18A68002B65B8 /* UIKit.framework in Frameworks */,
+				3A8568B714D18A68002B65B8 /* Foundation.framework in Frameworks */,
+				3A8568B914D18A68002B65B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A8568A514D18A68002B65B8 = {
+			isa = PBXGroup;
+			children = (
+				3A8568BA14D18A68002B65B8 /* Swap */,
+				3A8568B314D18A68002B65B8 /* Frameworks */,
+				3A8568B114D18A68002B65B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A8568B114D18A68002B65B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8568B014D18A68002B65B8 /* Swap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A8568B314D18A68002B65B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A8568B414D18A68002B65B8 /* UIKit.framework */,
+				3A8568B614D18A68002B65B8 /* Foundation.framework */,
+				3A8568B814D18A68002B65B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A8568BA14D18A68002B65B8 /* Swap */ = {
+			isa = PBXGroup;
+			children = (
+				3A8568C314D18A69002B65B8 /* SwapAppDelegate.h */,
+				3A8568C414D18A69002B65B8 /* SwapAppDelegate.m */,
+				3A8568C614D18A69002B65B8 /* SwapViewController.h */,
+				3A8568C714D18A69002B65B8 /* SwapViewController.m */,
+				3A8568C914D18A69002B65B8 /* SwapViewController_iPhone.xib */,
+				3A8568CC14D18A69002B65B8 /* SwapViewController_iPad.xib */,
+				3A8568BB14D18A69002B65B8 /* Supporting Files */,
+			);
+			path = Swap;
+			sourceTree = "<group>";
+		};
+		3A8568BB14D18A69002B65B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8568BC14D18A69002B65B8 /* Swap-Info.plist */,
+				3A8568BD14D18A69002B65B8 /* InfoPlist.strings */,
+				3A8568C014D18A69002B65B8 /* main.m */,
+				3A8568C214D18A69002B65B8 /* Swap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A8568AF14D18A68002B65B8 /* Swap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A8568D114D18A69002B65B8 /* Build configuration list for PBXNativeTarget "Swap" */;
+			buildPhases = (
+				3A8568AC14D18A68002B65B8 /* Sources */,
+				3A8568AD14D18A68002B65B8 /* Frameworks */,
+				3A8568AE14D18A68002B65B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swap;
+			productName = Swap;
+			productReference = 3A8568B014D18A68002B65B8 /* Swap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A8568A714D18A68002B65B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3A8568AA14D18A68002B65B8 /* Build configuration list for PBXProject "Swap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A8568A514D18A68002B65B8;
+			productRefGroup = 3A8568B114D18A68002B65B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A8568AF14D18A68002B65B8 /* Swap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A8568AE14D18A68002B65B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8568BF14D18A69002B65B8 /* InfoPlist.strings in Resources */,
+				3A8568CB14D18A69002B65B8 /* SwapViewController_iPhone.xib in Resources */,
+				3A8568CE14D18A69002B65B8 /* SwapViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A8568AC14D18A68002B65B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A8568C114D18A69002B65B8 /* main.m in Sources */,
+				3A8568C514D18A69002B65B8 /* SwapAppDelegate.m in Sources */,
+				3A8568C814D18A69002B65B8 /* SwapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A8568BD14D18A69002B65B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8568BE14D18A69002B65B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A8568C914D18A69002B65B8 /* SwapViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8568CA14D18A69002B65B8 /* en */,
+			);
+			name = SwapViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		3A8568CC14D18A69002B65B8 /* SwapViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A8568CD14D18A69002B65B8 /* en */,
+			);
+			name = SwapViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A8568CF14D18A69002B65B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A8568D014D18A69002B65B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A8568D214D18A69002B65B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A8568D314D18A69002B65B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Swap/Swap-Prefix.pch";
+				INFOPLIST_FILE = "Swap/Swap-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A8568AA14D18A68002B65B8 /* Build configuration list for PBXProject "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8568CF14D18A69002B65B8 /* Debug */,
+				3A8568D014D18A69002B65B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A8568D114D18A69002B65B8 /* Build configuration list for PBXNativeTarget "Swap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A8568D214D18A69002B65B8 /* Debug */,
+				3A8568D314D18A69002B65B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A8568A714D18A68002B65B8 /* Project object */;
+}

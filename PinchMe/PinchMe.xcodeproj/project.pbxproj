@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A39E9B614EC14EC007D0722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39E9B514EC14EC007D0722 /* UIKit.framework */; };
+		3A39E9B814EC14ED007D0722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39E9B714EC14ED007D0722 /* Foundation.framework */; };
+		3A39E9BA14EC14ED007D0722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39E9B914EC14ED007D0722 /* CoreGraphics.framework */; };
+		3A39E9C014EC14ED007D0722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A39E9BE14EC14ED007D0722 /* InfoPlist.strings */; };
+		3A39E9C214EC14ED007D0722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39E9C114EC14ED007D0722 /* main.m */; };
+		3A39E9C614EC14ED007D0722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39E9C514EC14ED007D0722 /* AppDelegate.m */; };
+		3A39E9C914EC14ED007D0722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39E9C814EC14ED007D0722 /* ViewController.m */; };
+		3A39E9CC14EC14ED007D0722 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A39E9CA14EC14ED007D0722 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A39E9B114EC14EC007D0722 /* PinchMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinchMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A39E9B514EC14EC007D0722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A39E9B714EC14ED007D0722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A39E9B914EC14ED007D0722 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A39E9BD14EC14ED007D0722 /* PinchMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinchMe-Info.plist"; sourceTree = "<group>"; };
+		3A39E9BF14EC14ED007D0722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A39E9C114EC14ED007D0722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A39E9C314EC14ED007D0722 /* PinchMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PinchMe-Prefix.pch"; sourceTree = "<group>"; };
+		3A39E9C414EC14ED007D0722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A39E9C514EC14ED007D0722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A39E9C714EC14ED007D0722 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A39E9C814EC14ED007D0722 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A39E9CB14EC14ED007D0722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A39E9AE14EC14EC007D0722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39E9B614EC14EC007D0722 /* UIKit.framework in Frameworks */,
+				3A39E9B814EC14ED007D0722 /* Foundation.framework in Frameworks */,
+				3A39E9BA14EC14ED007D0722 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A39E9A614EC14EC007D0722 = {
+			isa = PBXGroup;
+			children = (
+				3A39E9BB14EC14ED007D0722 /* PinchMe */,
+				3A39E9B414EC14EC007D0722 /* Frameworks */,
+				3A39E9B214EC14EC007D0722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A39E9B214EC14EC007D0722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A39E9B114EC14EC007D0722 /* PinchMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A39E9B414EC14EC007D0722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A39E9B514EC14EC007D0722 /* UIKit.framework */,
+				3A39E9B714EC14ED007D0722 /* Foundation.framework */,
+				3A39E9B914EC14ED007D0722 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A39E9BB14EC14ED007D0722 /* PinchMe */ = {
+			isa = PBXGroup;
+			children = (
+				3A39E9C414EC14ED007D0722 /* AppDelegate.h */,
+				3A39E9C514EC14ED007D0722 /* AppDelegate.m */,
+				3A39E9C714EC14ED007D0722 /* ViewController.h */,
+				3A39E9C814EC14ED007D0722 /* ViewController.m */,
+				3A39E9CA14EC14ED007D0722 /* ViewController.xib */,
+				3A39E9BC14EC14ED007D0722 /* Supporting Files */,
+			);
+			path = PinchMe;
+			sourceTree = "<group>";
+		};
+		3A39E9BC14EC14ED007D0722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A39E9BD14EC14ED007D0722 /* PinchMe-Info.plist */,
+				3A39E9BE14EC14ED007D0722 /* InfoPlist.strings */,
+				3A39E9C114EC14ED007D0722 /* main.m */,
+				3A39E9C314EC14ED007D0722 /* PinchMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A39E9B014EC14EC007D0722 /* PinchMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A39E9CF14EC14ED007D0722 /* Build configuration list for PBXNativeTarget "PinchMe" */;
+			buildPhases = (
+				3A39E9AD14EC14EC007D0722 /* Sources */,
+				3A39E9AE14EC14EC007D0722 /* Frameworks */,
+				3A39E9AF14EC14EC007D0722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinchMe;
+			productName = PinchMe;
+			productReference = 3A39E9B114EC14EC007D0722 /* PinchMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A39E9A814EC14EC007D0722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3A39E9AB14EC14EC007D0722 /* Build configuration list for PBXProject "PinchMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A39E9A614EC14EC007D0722;
+			productRefGroup = 3A39E9B214EC14EC007D0722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A39E9B014EC14EC007D0722 /* PinchMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A39E9AF14EC14EC007D0722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39E9C014EC14ED007D0722 /* InfoPlist.strings in Resources */,
+				3A39E9CC14EC14ED007D0722 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A39E9AD14EC14EC007D0722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39E9C214EC14ED007D0722 /* main.m in Sources */,
+				3A39E9C614EC14ED007D0722 /* AppDelegate.m in Sources */,
+				3A39E9C914EC14ED007D0722 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A39E9BE14EC14ED007D0722 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A39E9BF14EC14ED007D0722 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A39E9CA14EC14ED007D0722 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A39E9CB14EC14ED007D0722 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A39E9CD14EC14ED007D0722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A39E9CE14EC14ED007D0722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A39E9D014EC14ED007D0722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				INFOPLIST_FILE = "PinchMe/PinchMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A39E9D114EC14ED007D0722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PinchMe/PinchMe-Prefix.pch";
+				INFOPLIST_FILE = "PinchMe/PinchMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A39E9AB14EC14EC007D0722 /* Build configuration list for PBXProject "PinchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39E9CD14EC14ED007D0722 /* Debug */,
+				3A39E9CE14EC14ED007D0722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A39E9CF14EC14ED007D0722 /* Build configuration list for PBXNativeTarget "PinchMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39E9D014EC14ED007D0722 /* Debug */,
+				3A39E9D114EC14ED007D0722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A39E9A814EC14EC007D0722 /* Project object */;
+}

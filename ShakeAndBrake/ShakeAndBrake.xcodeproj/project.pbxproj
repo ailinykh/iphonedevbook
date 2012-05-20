@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A39EA7214ED3BBD007D0722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EA7114ED3BBD007D0722 /* UIKit.framework */; };
+		3A39EA7414ED3BBD007D0722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EA7314ED3BBD007D0722 /* Foundation.framework */; };
+		3A39EA7614ED3BBD007D0722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EA7514ED3BBD007D0722 /* CoreGraphics.framework */; };
+		3A39EA7C14ED3BBD007D0722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A39EA7A14ED3BBD007D0722 /* InfoPlist.strings */; };
+		3A39EA7E14ED3BBD007D0722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39EA7D14ED3BBD007D0722 /* main.m */; };
+		3A39EA8214ED3BBD007D0722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39EA8114ED3BBD007D0722 /* AppDelegate.m */; };
+		3A39EA8514ED3BBD007D0722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39EA8414ED3BBD007D0722 /* ViewController.m */; };
+		3A39EA8814ED3BBD007D0722 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A39EA8614ED3BBD007D0722 /* ViewController.xib */; };
+		3A39EA9B14ED3C0B007D0722 /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3A39EA9714ED3C0B007D0722 /* glass.wav */; };
+		3A39EA9C14ED3C0B007D0722 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A39EA9814ED3C0B007D0722 /* home.png */; };
+		3A39EA9D14ED3C0B007D0722 /* homebroken.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A39EA9914ED3C0B007D0722 /* homebroken.png */; };
+		3A39EA9E14ED3C0B007D0722 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A39EA9A14ED3C0B007D0722 /* icon.png */; };
+		3A39EAA014ED4189007D0722 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EA9F14ED4189007D0722 /* AudioToolbox.framework */; };
+		3A39EAA214ED4197007D0722 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A39EAA114ED4197007D0722 /* CoreMotion.framework */; };
+		3A39EAA514ED45C4007D0722 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A39EAA414ED45C4007D0722 /* MyImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A39EA6D14ED3BBD007D0722 /* ShakeAndBrake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAndBrake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A39EA7114ED3BBD007D0722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A39EA7314ED3BBD007D0722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A39EA7514ED3BBD007D0722 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A39EA7914ED3BBD007D0722 /* ShakeAndBrake-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShakeAndBrake-Info.plist"; sourceTree = "<group>"; };
+		3A39EA7B14ED3BBD007D0722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A39EA7D14ED3BBD007D0722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A39EA7F14ED3BBD007D0722 /* ShakeAndBrake-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShakeAndBrake-Prefix.pch"; sourceTree = "<group>"; };
+		3A39EA8014ED3BBD007D0722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A39EA8114ED3BBD007D0722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A39EA8314ED3BBD007D0722 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A39EA8414ED3BBD007D0722 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A39EA8714ED3BBD007D0722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		3A39EA9714ED3C0B007D0722 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+		3A39EA9814ED3C0B007D0722 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		3A39EA9914ED3C0B007D0722 /* homebroken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homebroken.png; sourceTree = "<group>"; };
+		3A39EA9A14ED3C0B007D0722 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		3A39EA9F14ED4189007D0722 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3A39EAA114ED4197007D0722 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		3A39EAA314ED45C4007D0722 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
+		3A39EAA414ED45C4007D0722 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A39EA6A14ED3BBD007D0722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39EAA214ED4197007D0722 /* CoreMotion.framework in Frameworks */,
+				3A39EAA014ED4189007D0722 /* AudioToolbox.framework in Frameworks */,
+				3A39EA7214ED3BBD007D0722 /* UIKit.framework in Frameworks */,
+				3A39EA7414ED3BBD007D0722 /* Foundation.framework in Frameworks */,
+				3A39EA7614ED3BBD007D0722 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A39EA6214ED3BBD007D0722 = {
+			isa = PBXGroup;
+			children = (
+				3A39EAA114ED4197007D0722 /* CoreMotion.framework */,
+				3A39EA9F14ED4189007D0722 /* AudioToolbox.framework */,
+				3A39EA8E14ED3BD0007D0722 /* Resources */,
+				3A39EA7714ED3BBD007D0722 /* ShakeAndBrake */,
+				3A39EA7014ED3BBD007D0722 /* Frameworks */,
+				3A39EA6E14ED3BBD007D0722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A39EA6E14ED3BBD007D0722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A39EA6D14ED3BBD007D0722 /* ShakeAndBrake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A39EA7014ED3BBD007D0722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A39EA7114ED3BBD007D0722 /* UIKit.framework */,
+				3A39EA7314ED3BBD007D0722 /* Foundation.framework */,
+				3A39EA7514ED3BBD007D0722 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A39EA7714ED3BBD007D0722 /* ShakeAndBrake */ = {
+			isa = PBXGroup;
+			children = (
+				3A39EA8014ED3BBD007D0722 /* AppDelegate.h */,
+				3A39EA8114ED3BBD007D0722 /* AppDelegate.m */,
+				3A39EA8314ED3BBD007D0722 /* ViewController.h */,
+				3A39EA8414ED3BBD007D0722 /* ViewController.m */,
+				3A39EA8614ED3BBD007D0722 /* ViewController.xib */,
+				3A39EA7814ED3BBD007D0722 /* Supporting Files */,
+				3A39EAA314ED45C4007D0722 /* MyImageView.h */,
+				3A39EAA414ED45C4007D0722 /* MyImageView.m */,
+			);
+			path = ShakeAndBrake;
+			sourceTree = "<group>";
+		};
+		3A39EA7814ED3BBD007D0722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A39EA7914ED3BBD007D0722 /* ShakeAndBrake-Info.plist */,
+				3A39EA7A14ED3BBD007D0722 /* InfoPlist.strings */,
+				3A39EA7D14ED3BBD007D0722 /* main.m */,
+				3A39EA7F14ED3BBD007D0722 /* ShakeAndBrake-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A39EA8E14ED3BD0007D0722 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A39EA9714ED3C0B007D0722 /* glass.wav */,
+				3A39EA9814ED3C0B007D0722 /* home.png */,
+				3A39EA9914ED3C0B007D0722 /* homebroken.png */,
+				3A39EA9A14ED3C0B007D0722 /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A39EA6C14ED3BBD007D0722 /* ShakeAndBrake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A39EA8B14ED3BBD007D0722 /* Build configuration list for PBXNativeTarget "ShakeAndBrake" */;
+			buildPhases = (
+				3A39EA6914ED3BBD007D0722 /* Sources */,
+				3A39EA6A14ED3BBD007D0722 /* Frameworks */,
+				3A39EA6B14ED3BBD007D0722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAndBrake;
+			productName = ShakeAndBrake;
+			productReference = 3A39EA6D14ED3BBD007D0722 /* ShakeAndBrake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A39EA6414ED3BBD007D0722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3A39EA6714ED3BBD007D0722 /* Build configuration list for PBXProject "ShakeAndBrake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A39EA6214ED3BBD007D0722;
+			productRefGroup = 3A39EA6E14ED3BBD007D0722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A39EA6C14ED3BBD007D0722 /* ShakeAndBrake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A39EA6B14ED3BBD007D0722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39EA7C14ED3BBD007D0722 /* InfoPlist.strings in Resources */,
+				3A39EA8814ED3BBD007D0722 /* ViewController.xib in Resources */,
+				3A39EA9B14ED3C0B007D0722 /* glass.wav in Resources */,
+				3A39EA9C14ED3C0B007D0722 /* home.png in Resources */,
+				3A39EA9D14ED3C0B007D0722 /* homebroken.png in Resources */,
+				3A39EA9E14ED3C0B007D0722 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A39EA6914ED3BBD007D0722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A39EA7E14ED3BBD007D0722 /* main.m in Sources */,
+				3A39EA8214ED3BBD007D0722 /* AppDelegate.m in Sources */,
+				3A39EA8514ED3BBD007D0722 /* ViewController.m in Sources */,
+				3A39EAA514ED45C4007D0722 /* MyImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A39EA7A14ED3BBD007D0722 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A39EA7B14ED3BBD007D0722 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A39EA8614ED3BBD007D0722 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A39EA8714ED3BBD007D0722 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A39EA8914ED3BBD007D0722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A39EA8A14ED3BBD007D0722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A39EA8C14ED3BBD007D0722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBrake/ShakeAndBrake-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBrake/ShakeAndBrake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A39EA8D14ED3BBD007D0722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShakeAndBrake/ShakeAndBrake-Prefix.pch";
+				INFOPLIST_FILE = "ShakeAndBrake/ShakeAndBrake-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A39EA6714ED3BBD007D0722 /* Build configuration list for PBXProject "ShakeAndBrake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39EA8914ED3BBD007D0722 /* Debug */,
+				3A39EA8A14ED3BBD007D0722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A39EA8B14ED3BBD007D0722 /* Build configuration list for PBXNativeTarget "ShakeAndBrake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A39EA8C14ED3BBD007D0722 /* Debug */,
+				3A39EA8D14ED3BBD007D0722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A39EA6414ED3BBD007D0722 /* Project object */;
+}

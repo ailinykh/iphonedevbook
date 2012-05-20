@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  LocalizeMe
+
+  Created by Антон on 17.02.12.
+  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+*/
+"Five" = "Five";
+"Four" = "Four";
+"Three" = "Three";
+"Two" = "Two";
+"One" = "One";
